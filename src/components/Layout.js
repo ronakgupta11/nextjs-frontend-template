@@ -3,7 +3,7 @@ import Head from 'next/head';
 import Link from 'next/link';
 import NavBarComp from './NavBarComp';
 import Footer from './Footer';
-const Layout = ({ children, title = 'My App' }) => {
+const Layout = ({ children, title = 'Orai Names' }) => {
   return (
     <div >
       <Head>
